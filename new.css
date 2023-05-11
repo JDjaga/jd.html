@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+:root{
+	--lightred:#001729;
+	--darkred:#08243b;
+	--white:#ffffff;
+	--lightwhite: #dfdfdf;
+	--black:#010103;
+}
+body{
+	background: linear-gradient(45deg, #9a9a9a, #808080);
+	font-family: 'Mukta', sans-serif;
+}
+.left-p{
+	font-size: 19px;
+    background: var(--lightred);
+    padding: 0px 0px;
+    text-align: center;
+}
+.resume{
+	width: 700px;
+	background: var(--white);
+	margin: 50px auto;
+	position: relative;
+}
+.clearfix{clear: both;}
+.left{
+	width: 200px;
+	float: left;
+	padding: 25px;
+	color: var(--white);
+	background: var(--darkred);
+}
+.name{font-size: 24px; text-align: center; text-transform:uppercase; font-weight: 100;
+letter-spacing: 2px; margin-bottom: 0px;}
+.p1{color: var(--lightwhite); text-align: center; margin-top: -5px; font-size: 14px;}
+.right{width: 450px;float: left;text-align: center;overflow: hidden;}
+.profile{width: 93%;
+    border-radius: 50%;
+    border: 7px solid white;}
+.heading-1{
+	background: #001729;
+    margin: 0px -25px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.com-p{margin: 0px; color:var(--lightwhite);}
+.sect-one, .sect-two, .sect-three,.sect-four,.sect-five {position: relative; height: 195px;}
+
+.label-1{
+	background: #f87701;
+    color: white;
+    position: absolute;
+    width: 41%;
+    padding: 5px;
+    transform: rotateZ(270deg);
+    left: -81px;
+    top: 67px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.label-2{
+	background: #91c917;
+}
+.label-3{
+	background: #f50545;
+}
+.label-4{
+	background: #69009d;
+}
+.label-5{
+	background: #05a3fa;
+}
+.content{
+	width: 350px;
+	float: left;
+	height: 190px;
+}
+.icon{
+	width: 100px;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+}
+.icon-1{
+	font-size: 51px!important;
+    color: #f87701;
+    transform: rotateY(180deg);
+}
+.circle{
+	width: 50px;
+    height: 50px;
+    background: #ffffff;
+    position: absolute;
+    bottom: -27px;
+    z-index: 9;
+    left: 0px;
+        border-radius: 0px 36px 36px 0px;
+    transform: rotateZ(182deg);
+}
+.circle1{
+	width: 50px;
+    height: 50px;
+    background: #ffffff;
+    position: absolute;
+    bottom: -27px;
+    z-index: 9;
+    left: 0px;
+        border-radius: 0px 36px 36px 0px;
+    transform: rotateZ(182deg);
+}
+.circle2{
+	width: 50px;
+    height: 50px;
+    background: #ffffff;
+    position: absolute;
+    top: -27px;
+    z-index: 9;
+    left: 0px;
+        border-radius: 0px 36px 36px 0px;
+    transform: rotateZ(182deg);
+}
+
+.p4{padding-left: 70px; position: relative;}
+.timeline{
+	width: 10px;
+    height: 10px;
+    background: transparent;
+    position: absolute;
+    left: 180px;
+    border-radius: 10px;
+    border: 3px solid #001729;
+    top: 5px;
+}
+.timeline::after{
+	    content: '';
+    position: absolute;
+    height: 32px;
+    width: 3px;
+    background: #08243b;
+    top: 11px;
+    left: 3.5px;
+}
+.end::after{
+	background: transparent;
+}
+.span1{float: left;}
+.span2{float: right;}
+.clearfix{clear: both;}
+.p5{padding-left: 70px; position: relative; display: inline-block;float: left;
+margin: 0px; width: 80px;}
+.span-all{
+	width: 137px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    position: relative;
+    margin-left: 62px;
+}
+.circle-span{
+	background: #08243b;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    left: 13px;
+
+}
+.circle-span1{
+	background: #08243b;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    left: 36px;
+
+}
+.circle-span2{
+	background: #08243b;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    left: 59px;
+}
+.circle-span3{
+	background: #08243b;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    left: 82px;
+}
+.circle-null{
+	background: #ffffff;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    border-radius: 10px;
+    left: 105px;
+    border: 2px solid #001729;
+}
+.circle-null1{
+	background: #ffffff;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    border-radius: 10px;
+    left: 70px;
+    border: 2px solid #001729;
+}
+.p6{
+	vertical-align: text-top;
+    line-height: 17px;
+    text-align: left;
+    padding-left: 97px;
+}
+.span3{
+	font-size: 12px;
+    color: #001729;
+}
